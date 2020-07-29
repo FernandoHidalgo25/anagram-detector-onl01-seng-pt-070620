@@ -7,7 +7,7 @@ class Anagram
 
   def match(array)
     array.select do |element|
-  (@word.split("").sort) == (element.split("").sort)
+    (@word.split("").sort) == (element.split("").sort)
     end
     
   end 
