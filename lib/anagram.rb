@@ -1,16 +1,16 @@
-#class Anagram
-  #attr_accessor
-  
- # def initialize(word)
-
-
-#def match 
 class Anagram
-  def initialize(anagram)
-    @anagram = anagram
-  end
+  attr_accessor :word
+  
+  def initialize(word)
+    @word = word 
+  end 
 
-  def match(word_list)
+  def match(array)
+    
+  end 
+  
+  
+
     anagrams = []
     word_list.each do |word|
       if prep(@anagram) == prep(word) && @anagram.downcase != word.downcase
